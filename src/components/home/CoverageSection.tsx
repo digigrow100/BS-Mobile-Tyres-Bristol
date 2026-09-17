@@ -1,5 +1,5 @@
 import Image from "next/image";
-import bristolMap from "@/assets/images/bristol-map.svg";
+import bristolMap from "@/assets/images/07-bristol-coverage-roads.webp";
 
 const AREAS = [
   "Bristol City Centre (BS1)",
