@@ -3,7 +3,7 @@ import technicianVan from "@/assets/images/01-technician-service-van.webp";
 
 export default function Hero() {
   return (
-    <section className="w-full bg-gradient-to-b from-blue-50/70 via-surface-container-lowest to-surface-container-low py-space-xl overflow-hidden">
+    <section className="w-full bg-gradient-to-b from-blue-50/70 via-surface-container-lowest to-surface-container-low py-space-xl lg:py-24 overflow-hidden">
       <div className="max-w-[1280px] mx-auto px-gutter-mobile lg:px-gutter grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
         <div className="lg:col-span-7 flex flex-col gap-space-md">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-surface-container-lowest shadow-sm w-fit">

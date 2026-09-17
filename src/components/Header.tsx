@@ -22,7 +22,7 @@ export default function Header() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-inverse-surface shadow-[0_4px_20px_rgba(0,0,0,0.25)]">
-      <div className="h-20 max-w-[1280px] mx-auto px-gutter-mobile lg:px-gutter h-full flex items-center justify-between gap-space-md">
+      <div className="h-20 max-w-[1280px] mx-auto px-gutter-mobile lg:px-gutter flex items-center justify-between gap-space-md">
         <Link
           className="flex items-center gap-space-xs text-inverse-on-surface hover:text-primary-fixed transition-colors min-w-0"
           href="/"
@@ -59,7 +59,7 @@ export default function Header() {
 
         <div className="flex items-center gap-space-sm">
           <a
-            className="hidden sm:inline-flex items-center gap-space-xs px-space-md py-space-sm rounded-lg bg-surface-container-highest text-on-surface hover:bg-surface-bright transition-colors font-label-md text-label-md"
+            className="hidden sm:inline-flex items-center gap-space-xs px-space-md py-space-sm min-h-[44px] rounded-lg bg-surface-container-highest text-on-surface hover:bg-surface-bright transition-colors font-label-md text-label-md"
             href="https://wa.me/447338430008"
             target="_blank"
             rel="noopener noreferrer"
@@ -68,7 +68,7 @@ export default function Header() {
             <span>WhatsApp</span>
           </a>
           <a
-            className="inline-flex items-center gap-space-xs px-space-md py-space-sm rounded-lg bg-primary-container text-on-primary hover:bg-primary transition-all shadow-[0_0_0_3px_rgba(249,115,22,0.28)] font-label-md text-label-md"
+            className="inline-flex items-center justify-center gap-space-xs px-space-md py-space-sm min-h-[44px] rounded-lg bg-primary-container text-on-primary hover:bg-primary transition-all shadow-[0_0_0_3px_rgba(249,115,22,0.28)] font-label-md text-label-md"
             href="tel:07338430008"
           >
             <span className="material-symbols-outlined text-[20px]">call</span>

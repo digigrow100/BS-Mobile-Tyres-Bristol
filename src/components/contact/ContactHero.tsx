@@ -4,7 +4,7 @@ import tyreBalancing from "@/assets/images/02-tyre-balancing.webp";
 export default function ContactHero() {
   return (
     <section className="w-full bg-surface-container-lowest">
-      <div className="max-w-7xl mx-auto px-gutter-mobile lg:px-gutter py-space-xl">
+      <div className="max-w-7xl mx-auto px-gutter-mobile lg:px-gutter py-space-xl lg:py-24">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-center">
           <div className="lg:col-span-6 flex flex-col items-start gap-space-md">
             <div className="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-[#1D4ED8]/10 text-[#1D4ED8]">
