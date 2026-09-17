@@ -1,5 +1,4 @@
 import Layout from "@/layouts/Layout";
-import TrustBar from "@/components/home/TrustBar";
 import Hero from "@/components/home/Hero";
 import LocationCtaBar from "@/components/shared/LocationCtaBar";
 import ServicesGrid from "@/components/home/ServicesGrid";
@@ -16,7 +15,6 @@ export default function Home() {
       description="Rapid mobile tyre fitting and roadside assistance across Bristol and surrounding areas. Call 07338430008 for 30-45 minute dispatch, 24/7."
     >
       <div className="flex flex-col w-full">
-        <TrustBar />
         <Hero />
         <LocationCtaBar
           heading="Where do you need us in Bristol?"
