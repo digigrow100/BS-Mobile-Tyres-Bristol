@@ -2,7 +2,7 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import siteIcon from "@/assets/images/site-icon.webp";
+import logo from "@/assets/images/bs-mobile-tyres-bristol-logo.webp";
 
 const NAV_LINKS = [
   { label: "Home", href: "/" },
@@ -25,21 +25,8 @@ export default function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-inverse-surface shadow-[0_4px_20px_rgba(0,0,0,0.25)]">
       <div className="h-20 max-w-[1280px] mx-auto px-gutter-mobile lg:px-gutter flex items-center justify-between gap-space-md">
-        <Link
-          className="flex items-center gap-space-xs text-inverse-on-surface hover:text-primary-fixed transition-colors min-w-0"
-          href="/"
-        >
-          <div className="w-10 h-10 shrink-0 rounded-lg bg-white flex items-center justify-center p-1.5 shadow-sm">
-            <Image src={siteIcon} alt="BS Mobile Tyres Bristol" className="w-full h-full object-contain" priority />
-          </div>
-          <div className="flex flex-col min-w-0">
-            <span className="font-headline-md text-[16px] sm:text-headline-md tracking-tight uppercase leading-none text-inverse-on-surface truncate">
-              BS Mobile Tyres Bristol
-            </span>
-            <span className="font-label-sm text-label-sm text-surface-dim uppercase tracking-wider truncate">
-              Bristol &amp; Surrounding Areas
-            </span>
-          </div>
+        <Link className="flex items-center shrink-0 transition-opacity hover:opacity-90" href="/">
+          <Image src={logo} alt="BS Mobile Tyres Bristol" className="h-10 sm:h-14 w-auto" priority />
         </Link>
 
         <nav className="hidden xl:flex items-center gap-space-sm">
