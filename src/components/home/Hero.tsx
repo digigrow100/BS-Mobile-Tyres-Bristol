@@ -1,5 +1,5 @@
 import Image from "next/image";
-import technicianVan from "@/assets/images/technician-van.svg";
+import technicianVan from "@/assets/images/01-technician-service-van.webp";
 
 export default function Hero() {
   return (

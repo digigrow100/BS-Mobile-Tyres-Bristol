@@ -1,10 +1,10 @@
 import Image from "next/image";
-import tyreBalancing from "@/assets/images/tyre-balancing.svg";
-import jumpStart from "@/assets/images/jump-start.svg";
-import fuelDelivery from "@/assets/images/fuel-delivery.svg";
-import technicianVan from "@/assets/images/technician-van.svg";
-import homeFitting from "@/assets/images/home-fitting.svg";
-import carRecovery from "@/assets/images/car-recovery.svg";
+import tyreBalancing from "@/assets/images/02-tyre-balancing.webp";
+import jumpStart from "@/assets/images/03-jump-start-service.webp";
+import fuelDelivery from "@/assets/images/04-fuel-delivery.webp";
+import technicianVan from "@/assets/images/01-technician-service-van.webp";
+import homeFitting from "@/assets/images/05-home-tyre-fitting.webp";
+import carRecovery from "@/assets/images/06-car-recovery-towing.webp";
 
 const SERVICES = [
   {

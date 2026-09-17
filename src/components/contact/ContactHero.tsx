@@ -1,5 +1,5 @@
 import Image from "next/image";
-import tyreBalancing from "@/assets/images/tyre-balancing.svg";
+import tyreBalancing from "@/assets/images/02-tyre-balancing.webp";
 
 export default function ContactHero() {
   return (

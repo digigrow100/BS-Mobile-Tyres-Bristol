@@ -1,7 +1,7 @@
 import Image from "next/image";
-import tyreBalancing from "@/assets/images/tyre-balancing.svg";
-import technicianVan from "@/assets/images/technician-van.svg";
-import jumpStart from "@/assets/images/jump-start.svg";
+import tyreBalancing from "@/assets/images/02-tyre-balancing.webp";
+import technicianVan from "@/assets/images/01-technician-service-van.webp";
+import jumpStart from "@/assets/images/03-jump-start-service.webp";
 
 const CAPABILITIES = [
   {
