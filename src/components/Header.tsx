@@ -1,6 +1,8 @@
 import { useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import siteIcon from "@/assets/images/site-icon.webp";
 
 const NAV_LINKS = [
   { label: "Home", href: "/" },
@@ -27,8 +29,8 @@ export default function Header() {
           className="flex items-center gap-space-xs text-inverse-on-surface hover:text-primary-fixed transition-colors min-w-0"
           href="/"
         >
-          <div className="w-10 h-10 shrink-0 rounded-lg bg-primary-container flex items-center justify-center text-on-primary font-headline-md text-headline-md">
-            <span className="material-symbols-outlined text-[24px]">tire_repair</span>
+          <div className="w-10 h-10 shrink-0 rounded-lg bg-white flex items-center justify-center p-1.5 shadow-sm">
+            <Image src={siteIcon} alt="BS Mobile Tyres Bristol" className="w-full h-full object-contain" priority />
           </div>
           <div className="flex flex-col min-w-0">
             <span className="font-headline-md text-[16px] sm:text-headline-md tracking-tight uppercase leading-none text-inverse-on-surface truncate">
