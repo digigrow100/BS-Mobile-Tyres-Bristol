@@ -17,7 +17,8 @@ export default function Layout({ title, description, children }: LayoutProps) {
         <title>{title}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content={description} />
-        <link rel="icon" href="/favicon.svg" />
+        <link rel="icon" href="/bs-mobile-tyres-site-icon.webp" type="image/webp" />
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="apple-touch-icon" href="/bs-mobile-tyres-site-icon.webp" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content={title} />

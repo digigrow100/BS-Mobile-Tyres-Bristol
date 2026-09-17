@@ -1,4 +1,6 @@
+import Image from "next/image";
 import Link from "next/link";
+import siteIcon from "@/assets/images/site-icon.webp";
 
 const SERVICE_LINKS = [
   { label: "Mobile Tyre Fitting", slug: "mobile-tyre-fitting" },
@@ -24,8 +26,8 @@ export default function Footer() {
       <div className="max-w-[1280px] mx-auto px-gutter-mobile lg:px-gutter py-space-xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-xl">
         <div className="flex flex-col gap-space-md">
           <div className="flex items-center gap-space-xs">
-            <div className="w-9 h-9 rounded-lg bg-primary-container flex items-center justify-center text-on-primary font-headline-md text-headline-md">
-              <span className="material-symbols-outlined text-[20px]">tire_repair</span>
+            <div className="w-9 h-9 shrink-0 rounded-lg bg-white flex items-center justify-center p-1 shadow-sm">
+              <Image src={siteIcon} alt="BS Mobile Tyres Bristol" className="w-full h-full object-contain" />
             </div>
             <span className="font-headline-md text-headline-md text-inverse-on-surface tracking-tight uppercase">
               BS Mobile Tyres Bristol
