@@ -1,5 +1,13 @@
-import Image from "next/image";
-import bristolMap from "@/assets/images/07-bristol-coverage-roads.webp";
+import dynamic from "next/dynamic";
+
+const BristolMap = dynamic(() => import("./BristolMap"), {
+  ssr: false,
+  loading: () => (
+    <div className="w-full h-full flex items-center justify-center bg-slate-900 text-slate-400 font-body-sm text-body-sm">
+      Loading map...
+    </div>
+  ),
+});
 
 const AREAS = [
   "Bristol City Centre (BS1)",
@@ -57,22 +65,9 @@ export default function CoverageSection() {
 
         <div className="lg:col-span-6 bg-slate-800 p-space-md rounded-3xl shadow-xl flex flex-col gap-3">
           <div className="relative w-full h-64 sm:h-80 rounded-2xl overflow-hidden">
-            <Image
-              alt="Map overview of Bristol coverage area"
-              src={bristolMap}
-              fill
-              sizes="(min-width: 1024px) 40vw, 100vw"
-              className="object-cover"
-            />
-            <div className="absolute inset-0 bg-blue-950/40 mix-blend-multiply" />
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center justify-center">
-              <div className="w-44 h-44 rounded-full border-2 border-amber-400/40 animate-ping absolute" />
-              <div className="w-24 h-24 rounded-full border border-blue-400/60 flex items-center justify-center bg-blue-600/30 backdrop-blur-xs">
-                <div className="w-4 h-4 rounded-full bg-amber-400 shadow-lg shadow-amber-400" />
-              </div>
-            </div>
-            <div className="absolute bottom-3 left-3 bg-slate-900/90 px-3 py-1.5 rounded-xl text-white font-mono-data text-label-sm backdrop-blur-md">
-              <span>Active Bristol Units: BS Mobile Fleet | Rapid Dispatch</span>
+            <BristolMap />
+            <div className="absolute bottom-3 left-3 z-[400] bg-slate-900/90 px-3 py-1.5 rounded-xl text-white font-mono-data text-label-sm backdrop-blur-md pointer-events-none">
+              <span>Live Bristol Coverage Map</span>
             </div>
           </div>
           <div className="grid grid-cols-3 gap-2 text-center pt-1">
