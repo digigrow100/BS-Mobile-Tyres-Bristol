@@ -25,9 +25,7 @@ export default function Footer() {
     <footer className="w-full bg-inverse-surface text-inverse-on-surface mt-auto">
       <div className="max-w-[1280px] mx-auto px-gutter-mobile lg:px-gutter py-space-xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-xl">
         <div className="flex flex-col gap-space-md">
-          <div className="inline-flex w-fit rounded-lg bg-white p-2 shadow-sm">
-            <Image src={logo} alt="BS Mobile Tyres Bristol" className="h-20 w-auto" />
-          </div>
+          <Image src={logo} alt="BS Mobile Tyres Bristol" className="h-14 w-auto" />
           <p className="font-body-sm text-body-sm text-surface-variant leading-relaxed">
             Rapid mobile tyre fitting, emergency puncture replacements, and roadside tyre assistance across
             Bristol, BS postcodes, M4, M5, M32, and surrounding areas.
