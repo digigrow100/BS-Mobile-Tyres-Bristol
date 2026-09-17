@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import logo from "@/assets/images/bs-mobile-tyres-logo-trimmed.webp";
+import logo from "@/assets/images/bs-mobile-tyres-bristol-logo.webp";
 
 const SERVICE_LINKS = [
   { label: "Mobile Tyre Fitting", slug: "mobile-tyre-fitting" },
@@ -26,7 +26,7 @@ export default function Footer() {
       <div className="max-w-[1280px] mx-auto px-gutter-mobile lg:px-gutter py-space-xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-xl">
         <div className="flex flex-col gap-space-md">
           <div className="inline-flex w-fit rounded-lg bg-white p-2 shadow-sm">
-            <Image src={logo} alt="BS Mobile Tyres Bristol" className="h-10 w-auto" />
+            <Image src={logo} alt="BS Mobile Tyres Bristol" className="h-20 w-auto" />
           </div>
           <p className="font-body-sm text-body-sm text-surface-variant leading-relaxed">
             Rapid mobile tyre fitting, emergency puncture replacements, and roadside tyre assistance across
