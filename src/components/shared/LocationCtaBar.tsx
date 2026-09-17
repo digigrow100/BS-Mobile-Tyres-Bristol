@@ -4,7 +4,12 @@ const LOCATIONS = [
   { label: "On the Motorway / Roadside", icon: "warning", highlight: true },
 ];
 
-export default function LocationSelector() {
+interface LocationCtaBarProps {
+  heading: string;
+  description: string;
+}
+
+export default function LocationCtaBar({ heading, description }: LocationCtaBarProps) {
   return (
     <section className="w-full bg-blue-600 text-white py-space-md shadow-md">
       <div className="max-w-[1280px] mx-auto px-gutter-mobile lg:px-gutter flex flex-col md:flex-row items-center justify-between gap-space-md">
@@ -13,12 +18,8 @@ export default function LocationSelector() {
             <span className="material-symbols-outlined text-[24px]">location_searching</span>
           </span>
           <div>
-            <span className="font-headline-md text-headline-md font-bold block text-white">
-              Where do you need us in Bristol?
-            </span>
-            <span className="font-body-sm text-body-sm text-blue-100">
-              Select your current location for instant arrival quote
-            </span>
+            <span className="font-headline-md text-headline-md font-bold block text-white">{heading}</span>
+            <span className="font-body-sm text-body-sm text-blue-100">{description}</span>
           </div>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 w-full md:w-auto">

@@ -1,7 +1,7 @@
 import Layout from "@/layouts/Layout";
 import TrustBar from "@/components/home/TrustBar";
 import Hero from "@/components/home/Hero";
-import LocationSelector from "@/components/home/LocationSelector";
+import LocationCtaBar from "@/components/shared/LocationCtaBar";
 import ServicesGrid from "@/components/home/ServicesGrid";
 import WhyChooseUs from "@/components/home/WhyChooseUs";
 import HowItWorks from "@/components/home/HowItWorks";
@@ -18,7 +18,10 @@ export default function Home() {
       <div className="flex flex-col w-full">
         <TrustBar />
         <Hero />
-        <LocationSelector />
+        <LocationCtaBar
+          heading="Where do you need us in Bristol?"
+          description="Select your current location for instant arrival quote"
+        />
         <ServicesGrid />
         <WhyChooseUs />
         <HowItWorks />
