@@ -20,12 +20,12 @@ export default function AboutHero() {
             <div className="pt-2">
               <a
                 className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full bg-amber-400 text-slate-950 font-bold text-base shadow-sm hover:bg-amber-300 hover:shadow-md active:scale-95 transition-all"
-                href="tel:07338430008"
+                href="tel:01174054733"
               >
                 <span className="material-symbols-outlined text-[22px]" style={{ fontVariationSettings: "'FILL' 1" }}>
                   call
                 </span>
-                <span>Call 07338430008</span>
+                <span>Call 01174054733</span>
               </a>
             </div>
           </div>

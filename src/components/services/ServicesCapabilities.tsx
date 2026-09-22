@@ -4,7 +4,6 @@ import jumpStartImg from "@/assets/images/03-jump-start-service.webp";
 import fuelDelivery from "@/assets/images/04-fuel-delivery.webp";
 import technicianVan from "@/assets/images/01-technician-service-van.webp";
 import homeFitting from "@/assets/images/05-home-tyre-fitting.webp";
-import carRecovery from "@/assets/images/06-car-recovery-towing.webp";
 
 const SERVICES = [
   {
@@ -36,12 +35,6 @@ const SERVICES = [
     title: "Home Tyre Fitting",
     description: "Have your tyres fitted conveniently at your home.",
     image: homeFitting,
-  },
-  {
-    slug: "car-recovery",
-    title: "Car Recovery",
-    description: "Vehicle recovery assistance when your car cannot continue its journey.",
-    image: carRecovery,
   },
 ];
 
@@ -86,7 +79,7 @@ export default function ServicesCapabilities() {
                 <div className="pt-space-md mt-space-md">
                   <a
                     className="inline-flex items-center gap-1.5 font-headline-md text-label-md font-bold text-[#1D4ED8] hover:text-[#1D4ED8]/80 group"
-                    href="tel:07338430008"
+                    href="tel:01174054733"
                   >
                     <span>Learn More</span>
                     <span className="material-symbols-outlined text-[18px] transition-transform group-hover:translate-x-1">

@@ -33,7 +33,7 @@ const BENEFITS = [
     icon: "handyman",
     title: "Multiple Roadside Services",
     description:
-      "One friendly contact solves all common roadside headaches: tyres, dead batteries, lockouts, wrong fuel or empty tank top-ups, and vehicle recovery.",
+      "One friendly contact solves all common roadside headaches: tyres, dead batteries, lockouts, and wrong fuel or empty tank top-ups.",
   },
 ];
 

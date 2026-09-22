@@ -4,7 +4,6 @@ import jumpStart from "@/assets/images/03-jump-start-service.webp";
 import fuelDelivery from "@/assets/images/04-fuel-delivery.webp";
 import technicianVan from "@/assets/images/01-technician-service-van.webp";
 import homeFitting from "@/assets/images/05-home-tyre-fitting.webp";
-import carRecovery from "@/assets/images/06-car-recovery-towing.webp";
 
 const SERVICES = [
   {
@@ -55,16 +54,6 @@ const SERVICES = [
     cta: "Schedule Home Visit",
     badge: { label: "Driveway Booking", icon: "home_repair_service", className: "bg-emerald-700 text-white" },
     image: homeFitting,
-    ctaClassName: "bg-blue-50 text-blue-800 group-hover:bg-blue-600 group-hover:text-white",
-  },
-  {
-    slug: "car-recovery",
-    title: "Car Recovery & Towing",
-    description:
-      "Full mechanical breakdown recovery. Safe hydraulic tilt-and-slide transport for cars, vans, 4x4s, and electric vehicles to any UK destination.",
-    cta: "Arrange Recovery",
-    badge: { label: "Tilt & Slide", icon: "rv_hookup", className: "bg-blue-900 text-white" },
-    image: carRecovery,
     ctaClassName: "bg-blue-50 text-blue-800 group-hover:bg-blue-600 group-hover:text-white",
   },
 ];
@@ -118,7 +107,7 @@ export default function ServicesGrid() {
                 </div>
                 <a
                   className={`inline-flex items-center justify-between w-full px-4 py-2.5 rounded-xl font-headline-md text-label-md font-bold transition-colors ${service.ctaClassName}`}
-                  href="tel:07338430008"
+                  href="tel:01174054733"
                 >
                   <span>{service.cta}</span>
                   <span className="material-symbols-outlined text-[20px] group-hover:translate-x-1 transition-transform">

@@ -17,7 +17,7 @@ const BENEFITS = [
   {
     icon: "handyman",
     title: "Multiple Vehicle Services",
-    description: "From tyre replacements to jump starts, emergency fuel, and car recovery.",
+    description: "From tyre replacements to jump starts and emergency fuel delivery.",
   },
 ];
 

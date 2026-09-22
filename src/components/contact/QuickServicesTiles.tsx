@@ -5,7 +5,6 @@ import jumpStart from "@/assets/images/03-jump-start-service.webp";
 import fuelDelivery from "@/assets/images/04-fuel-delivery.webp";
 import technicianVan from "@/assets/images/01-technician-service-van.webp";
 import homeFitting from "@/assets/images/05-home-tyre-fitting.webp";
-import carRecovery from "@/assets/images/06-car-recovery-towing.webp";
 
 const SERVICES = [
   { slug: "mobile-tyre-fitting", title: "Mobile Tyre Fitting", image: tyreBalancing },
@@ -13,7 +12,6 @@ const SERVICES = [
   { slug: "fuel-delivery", title: "Fuel Delivery", image: fuelDelivery },
   { slug: "emergency-tyre-fitting", title: "Emergency Tyre Fitting", image: technicianVan },
   { slug: "home-tyre-fitting", title: "Home Tyre Fitting", image: homeFitting },
-  { slug: "car-recovery", title: "Car Recovery", image: carRecovery },
 ];
 
 export default function QuickServicesTiles() {

@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <Layout
       title="BS Mobile Tyres Bristol | Mobile Tyre Fitting & Roadside Assistance"
-      description="Rapid mobile tyre fitting and roadside assistance across Bristol and surrounding areas. Call 07338430008 for 30-45 minute dispatch, 24/7."
+      description="Rapid mobile tyre fitting and roadside assistance across Bristol and surrounding areas. Call 01174054733 for 30-45 minute dispatch, 24/7."
     >
       <div className="flex flex-col w-full">
         <Hero />

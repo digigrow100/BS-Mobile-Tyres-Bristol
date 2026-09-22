@@ -22,12 +22,12 @@ export default function ServicesHero() {
             <div className="flex flex-wrap items-center gap-space-md pt-space-sm w-full sm:w-auto">
               <a
                 className="inline-flex items-center justify-center gap-space-xs px-space-lg py-4 rounded-xl bg-[#FACC15] text-[#0F172A] font-headline-md text-label-md font-bold shadow-sm hover:brightness-95 transition-all w-full sm:w-auto"
-                href="tel:07338430008"
+                href="tel:01174054733"
               >
                 <span className="material-symbols-outlined text-[20px]" style={{ fontVariationSettings: "'FILL' 1" }}>
                   phone_in_talk
                 </span>
-                <span>Call 07338430008</span>
+                <span>Call 01174054733</span>
               </a>
               <a
                 className="inline-flex items-center justify-center gap-space-xs px-space-lg py-4 rounded-xl bg-[#1D4ED8] text-white font-headline-md text-label-md font-semibold hover:bg-[#1D4ED8]/90 transition-all w-full sm:w-auto"

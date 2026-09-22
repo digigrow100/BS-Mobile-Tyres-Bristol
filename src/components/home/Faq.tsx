@@ -4,7 +4,7 @@ const FAQS = [
   {
     question: "How fast can a mobile tyre van reach me in an emergency?",
     answer:
-      "Our Bristol average response window is 30 to 45 minutes across all BS postcodes, motorways (M4, M5, M32, M49) and local dual carriageways. When you call 07338430008, we pinpoint the closest mobile tyre van via live GPS and provide an accurate real-time arrival estimate.",
+      "Our Bristol average response window is 30 to 45 minutes across all BS postcodes, motorways (M4, M5, M32, M49) and local dual carriageways. When you call 01174054733, we pinpoint the closest mobile tyre van via live GPS and provide an accurate real-time arrival estimate.",
   },
   {
     question: "Do I need to belong to a motoring club or pay monthly membership?",

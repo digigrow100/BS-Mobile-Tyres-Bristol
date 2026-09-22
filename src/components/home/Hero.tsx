@@ -38,17 +38,17 @@ export default function Hero() {
           <div className="flex flex-wrap items-center gap-space-md pt-space-xs">
             <a
               className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-full bg-amber-400 hover:bg-amber-300 text-slate-950 font-headline-md text-headline-md font-bold shadow-md hover:shadow-lg transition-all"
-              href="tel:07338430008"
+              href="tel:01174054733"
             >
               <span>Book Tyre Help</span>
               <span className="material-symbols-outlined text-[22px]">arrow_forward</span>
             </a>
             <a
               className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-full bg-blue-700 hover:bg-blue-800 text-white font-headline-md text-headline-md font-bold shadow-md hover:shadow-lg transition-all"
-              href="tel:07338430008"
+              href="tel:01174054733"
             >
               <span className="material-symbols-outlined text-[20px]">call</span>
-              <span>Call 07338430008</span>
+              <span>Call 01174054733</span>
             </a>
           </div>
           <div className="pt-space-sm flex flex-wrap gap-2">
