@@ -6,7 +6,6 @@ const SERVICE_OPTIONS = [
   "Fuel Delivery",
   "Emergency Tyre Fitting",
   "Home Tyre Fitting",
-  "Car Recovery",
 ];
 
 export default function ContactForm() {
@@ -29,8 +28,8 @@ export default function ContactForm() {
         {submitted ? (
           <div className="rounded-xl bg-emerald-50 text-emerald-800 p-space-md font-body-md text-body-md">
             Your request has been received. If this is urgent, please call{" "}
-            <a className="font-bold underline" href="tel:07338430008">
-              07338430008
+            <a className="font-bold underline" href="tel:01174054733">
+              01174054733
             </a>{" "}
             directly.
           </div>

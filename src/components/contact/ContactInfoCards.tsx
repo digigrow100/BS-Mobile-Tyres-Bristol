@@ -8,13 +8,13 @@ export default function ContactInfoCards() {
           </div>
           <div className="flex flex-col">
             <span className="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Phone</span>
-            <span className="font-headline-md text-headline-md text-on-surface">07338430008</span>
+            <span className="font-headline-md text-headline-md text-on-surface">01174054733</span>
           </div>
         </div>
         <div>
           <a
             className="inline-flex items-center justify-center gap-space-xs w-full py-space-sm px-space-md rounded-xl bg-[#FACC15] text-[#0F172A] font-title-sm text-title-sm hover:bg-[#eab308] transition-colors shadow-sm"
-            href="tel:07338430008"
+            href="tel:01174054733"
           >
             <span className="material-symbols-outlined text-[20px]">call</span>
             <span>Call Now</span>

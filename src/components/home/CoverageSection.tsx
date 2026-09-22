@@ -56,7 +56,7 @@ export default function CoverageSection() {
             </div>
             <a
               className="px-5 py-3 rounded-xl bg-amber-400 text-slate-950 font-headline-md text-label-md font-bold flex items-center justify-center gap-2 hover:bg-amber-300 transition-colors"
-              href="tel:07338430008"
+              href="tel:01174054733"
             >
               <span>Check Dispatch</span>
             </a>

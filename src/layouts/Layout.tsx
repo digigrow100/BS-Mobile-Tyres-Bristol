@@ -3,6 +3,7 @@ import type { ReactNode } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import MobileActionBar from "@/components/MobileActionBar";
+import FloatingActionButtons from "@/components/FloatingActionButtons";
 
 interface LayoutProps {
   title: string;
@@ -33,6 +34,7 @@ export default function Layout({ title, description, children }: LayoutProps) {
       <main className="w-full pt-20 pb-20 md:pb-0 bg-surface flex-1">{children}</main>
       <Footer />
       <MobileActionBar />
+      <FloatingActionButtons />
     </>
   );
 }

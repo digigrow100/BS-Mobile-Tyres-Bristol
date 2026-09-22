@@ -19,12 +19,12 @@ export default function CtaBanner({ badgeLabel, heading, description }: CtaBanne
         <div className="pt-space-sm flex flex-wrap items-center justify-center gap-space-md w-full sm:w-auto">
           <a
             className="w-full sm:w-auto inline-flex items-center justify-center gap-space-sm px-space-xl py-4 rounded-full bg-[#FACC15] text-[#0F172A] font-title-sm text-title-sm hover:bg-[#eab308] transition-colors shadow-lg focus:outline-none"
-            href="tel:07338430008"
+            href="tel:01174054733"
           >
             <span className="material-symbols-outlined text-[24px]" style={{ fontVariationSettings: "'FILL' 1" }}>
               call
             </span>
-            <span>Call 07338430008</span>
+            <span>Call 01174054733</span>
           </a>
           <a
             className="w-full sm:w-auto inline-flex items-center justify-center gap-space-sm px-space-xl py-4 rounded-full bg-slate-800 text-white font-title-sm text-title-sm hover:bg-slate-700 transition-colors shadow-sm"

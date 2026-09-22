@@ -8,7 +8,6 @@ const SERVICE_LINKS = [
   { label: "Fuel Delivery", slug: "fuel-delivery" },
   { label: "Emergency Tyre Fitting", slug: "emergency-tyre-fitting" },
   { label: "Home Tyre Fitting", slug: "home-tyre-fitting" },
-  { label: "Car Recovery", slug: "car-recovery" },
 ];
 
 const QUICK_LINKS = [
@@ -87,9 +86,9 @@ export default function Footer() {
               <span className="font-label-sm text-label-sm text-surface-variant">24/7 Phone Dispatch</span>
               <a
                 className="font-mono-data text-mono-data text-inverse-on-surface hover:text-primary-fixed transition-colors"
-                href="tel:07338430008"
+                href="tel:01174054733"
               >
-                07338430008
+                01174054733
               </a>
             </div>
           </div>
@@ -108,11 +107,11 @@ export default function Footer() {
               <span className="font-label-sm text-label-sm text-surface-variant">Instant WhatsApp</span>
               <a
                 className="font-body-sm text-body-sm text-inverse-on-surface hover:text-primary-fixed transition-colors"
-                href="https://wa.me/447338430008"
+                href="https://wa.me/441174054733"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                07338430008
+                01174054733
               </a>
             </div>
           </div>

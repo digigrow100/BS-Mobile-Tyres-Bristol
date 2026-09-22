@@ -31,7 +31,7 @@ export default function LocationCtaBar({ heading, description }: LocationCtaBarP
                   ? "bg-amber-400 hover:bg-amber-300 text-slate-950 shadow-md"
                   : "bg-blue-700/80 hover:bg-blue-800 text-white"
               }`}
-              href="tel:07338430008"
+              href="tel:01174054733"
             >
               <span
                 className={`material-symbols-outlined text-[20px] ${

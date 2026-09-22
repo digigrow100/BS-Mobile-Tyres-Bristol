@@ -20,10 +20,10 @@ export default function ContactHero() {
             <div className="pt-space-xs">
               <a
                 className="inline-flex items-center gap-space-sm px-space-xl py-space-md rounded-full bg-[#FACC15] text-[#0F172A] font-title-sm text-title-sm hover:bg-[#eab308] transition-colors shadow-sm focus:outline-none"
-                href="tel:07338430008"
+                href="tel:01174054733"
               >
                 <span className="material-symbols-outlined text-[24px]">call</span>
-                <span>Call 07338430008</span>
+                <span>Call 01174054733</span>
               </a>
             </div>
           </div>

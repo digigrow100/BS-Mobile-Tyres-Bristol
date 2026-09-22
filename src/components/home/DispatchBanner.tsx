@@ -21,10 +21,10 @@ export default function DispatchBanner() {
             <div className="flex flex-col sm:flex-row gap-space-sm w-full sm:w-auto shrink-0">
               <a
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full bg-amber-400 hover:bg-amber-300 text-slate-950 font-headline-md text-headline-md font-bold shadow-xl transition-all"
-                href="tel:07338430008"
+                href="tel:01174054733"
               >
                 <span className="material-symbols-outlined text-[24px]">call</span>
-                <span>Call 07338430008</span>
+                <span>Call 01174054733</span>
               </a>
               <a
                 className="inline-flex items-center justify-center gap-2 px-6 py-4 rounded-full bg-blue-950/80 hover:bg-blue-950 text-white font-headline-md text-label-md font-semibold transition-all"

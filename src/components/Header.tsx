@@ -49,7 +49,7 @@ export default function Header() {
         <div className="flex items-center gap-space-sm">
           <a
             className="hidden sm:inline-flex items-center gap-space-xs px-space-md py-space-sm min-h-[44px] rounded-lg bg-surface-container-highest text-on-surface hover:bg-surface-bright transition-colors font-label-md text-label-md"
-            href="https://wa.me/447338430008"
+            href="https://wa.me/441174054733"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -58,7 +58,7 @@ export default function Header() {
           </a>
           <a
             className="inline-flex items-center justify-center gap-space-xs px-space-md py-space-sm min-h-[44px] rounded-lg bg-primary-container text-on-primary hover:bg-primary transition-all shadow-[0_0_0_3px_rgba(249,115,22,0.28)] font-label-md text-label-md"
-            href="tel:07338430008"
+            href="tel:01174054733"
           >
             <span className="material-symbols-outlined text-[20px]">call</span>
             <span className="hidden sm:inline font-bold">Call Now</span>

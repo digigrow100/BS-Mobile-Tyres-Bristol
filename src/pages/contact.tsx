@@ -10,7 +10,7 @@ export default function Contact() {
   return (
     <Layout
       title="Contact Us | BS Mobile Tyres Bristol"
-      description="Contact BS Mobile Tyres Bristol for mobile tyre fitting and roadside assistance. Call 07338430008 or request assistance online."
+      description="Contact BS Mobile Tyres Bristol for mobile tyre fitting and roadside assistance. Call 01174054733 or request assistance online."
     >
       <div className="flex flex-col w-full">
         <ContactHero />
