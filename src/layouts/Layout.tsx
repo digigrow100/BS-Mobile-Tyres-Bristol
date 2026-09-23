@@ -1,5 +1,6 @@
 import Head from "next/head";
 import type { ReactNode } from "react";
+import { useRouter } from "next/router";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import MobileActionBar from "@/components/MobileActionBar";
@@ -12,8 +13,10 @@ interface LayoutProps {
 }
 
 export default function Layout({ title, description, children }: LayoutProps) {
+  const router = useRouter();
   const siteUrl = process.env.SITE_URL;
   const ogImageUrl = `${siteUrl}/bs-mobile-tyres-open-graph.webp`;
+  const pageUrl = `${siteUrl}${router.pathname === "/" ? "" : router.pathname}`;
 
   return (
     <>
@@ -25,7 +28,7 @@ export default function Layout({ title, description, children }: LayoutProps) {
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="apple-touch-icon" href="/bs-mobile-tyres-site-icon.webp" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content={siteUrl} />
+        <meta property="og:url" content={pageUrl} />
         <meta property="og:site_name" content="BS Mobile Tyres Bristol" />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
