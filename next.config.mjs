@@ -1,4 +1,4 @@
-const siteUrl = "https://example.com";
+const siteUrl = "https://bsmobiletyresbristol.co.uk";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
