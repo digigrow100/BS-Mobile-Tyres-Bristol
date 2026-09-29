@@ -86,9 +86,9 @@ export default function Footer() {
               <span className="font-label-sm text-label-sm text-surface-variant">24/7 Phone Dispatch</span>
               <a
                 className="font-mono-data text-mono-data text-inverse-on-surface hover:text-primary-fixed transition-colors"
-                href="tel:01174054733"
+                href="tel:07338430008"
               >
-                01174054733
+                07338430008
               </a>
             </div>
           </div>
@@ -107,11 +107,11 @@ export default function Footer() {
               <span className="font-label-sm text-label-sm text-surface-variant">Instant WhatsApp</span>
               <a
                 className="font-body-sm text-body-sm text-inverse-on-surface hover:text-primary-fixed transition-colors"
-                href="https://wa.me/441174054733"
+                href="https://wa.me/447338430008"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                01174054733
+                07338430008
               </a>
             </div>
           </div>

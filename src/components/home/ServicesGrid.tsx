@@ -107,7 +107,7 @@ export default function ServicesGrid() {
                 </div>
                 <a
                   className={`inline-flex items-center justify-between w-full px-4 py-2.5 rounded-xl font-headline-md text-label-md font-bold transition-colors ${service.ctaClassName}`}
-                  href="tel:01174054733"
+                  href="tel:07338430008"
                 >
                   <span>{service.cta}</span>
                   <span className="material-symbols-outlined text-[20px] group-hover:translate-x-1 transition-transform">
