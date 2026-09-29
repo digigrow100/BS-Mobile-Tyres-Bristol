@@ -79,7 +79,7 @@ export default function ServicesCapabilities() {
                 <div className="pt-space-md mt-space-md">
                   <a
                     className="inline-flex items-center gap-1.5 font-headline-md text-label-md font-bold text-[#1D4ED8] hover:text-[#1D4ED8]/80 group"
-                    href="tel:01174054733"
+                    href="tel:07338430008"
                   >
                     <span>Learn More</span>
                     <span className="material-symbols-outlined text-[18px] transition-transform group-hover:translate-x-1">
